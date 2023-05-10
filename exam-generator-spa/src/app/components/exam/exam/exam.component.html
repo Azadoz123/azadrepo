@@ -1,0 +1,11 @@
+
+<table class="table">
+    <tr *ngFor="let askedQuestion of askedQuestionForClientDto">
+        <td>
+            <tr><td>{{askedQuestion.questionContent}} </td></tr>
+            <tr *ngFor="let questionOption of askedQuestion.questionOptions">
+                <td>{{questionOption.choiceOption}} : {{questionOption.questionOptionContent}} </td>
+            </tr>
+        </td>
+    </tr>
+</table>

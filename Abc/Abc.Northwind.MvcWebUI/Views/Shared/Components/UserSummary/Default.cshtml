@@ -1,0 +1,19 @@
+﻿@model UserDetailsViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<ul class="dropdown-menu">
+    @if (!String.IsNullOrEmpty(@Model.UserName))
+    {
+        <li>    
+            <a>Welcome @Model.UserName</a>
+        </li>
+        <li><hr class="dropdown-divider"></li>
+        <li>
+            <a asp-controller="Account" asp-action="LogOff">Log Off</a>
+        </li>    
+    }
+</ul>

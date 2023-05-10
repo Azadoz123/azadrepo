@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SampleApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleApp.Domain.Shared\SampleApp.Domain.Shared.csproj" />
+  <ProjectReference Include="..\..\modules\SampleModule\src\SampleModule.Application.Contracts\SampleModule.Application.Contracts.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.ObjectExtending" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.Account.Application.Contracts" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application.Contracts" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application.Contracts" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="7.2.1" />
+    <ProjectReference Include="..\..\modules\Volo.Blogging\src\Volo.Blogging.Admin.Application.Contracts\Volo.Blogging.Admin.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Blogging\src\Volo.Blogging.Application.Contracts\Volo.Blogging.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+﻿@model Abc.Northwind.MvcWebUI.Models.ProductListViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+<div>
+<table class="table table-responsive">
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Unit In Stock</td>
+        <td></td>
+    </tr>
+    @foreach(var product in Model.Products)
+    {
+        <tr>
+            <td>@product.ProductName</td>
+            <td>@product.UnitPrice</td>
+            <td>@product.UnitsInStock</td>
+            <td><a class="btn btn-sm btn-success" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId">Add to Cart</a></td>
+        </tr>
+    }
+</table>
+</div>
+<product-list-pager current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
+
+@*<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>*@

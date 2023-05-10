@@ -1,0 +1,1 @@
+DBCC CHECKIDENT('Exams', RESEED,0)

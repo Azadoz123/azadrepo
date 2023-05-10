@@ -1,0 +1,55 @@
+﻿@model CartSummaryViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>Your Cart</h2>
+<table class="table">
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Units In Stock</td>
+        <td>Quantity</td>
+        <td></td>
+    </tr>
+    @foreach(var item in Model.Cart.CartLines)
+    {
+        <tr>
+            <td>@item.Product.ProductName</td>
+            <td>@item.Product.UnitPrice</td>
+            <td>@item.Product.UnitsInStock</td>
+            <td>@item.Quantity</td>
+            <td class="text-right"><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="Remove" asp-route-productId="@item.Product.ProductId"><span></span>remove from cart</a></td>
+        </tr>
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <h3>Total</h3>
+        </td>
+        <td class="text-right">
+            <h3>
+              <strong>@Model.Cart.Total</strong>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <a asp-controller="Product" asp-action="Index" class="btn btn-sm btn-outline-secondary">
+                <span>Continue Shopping</span>
+            </a>
+        </td>  <td>
+            <a asp-controller="Cart" asp-action="Complete" class="btn btn-sm btn-outline-secondary">
+                <span>Go To Checkout</span>
+            </a>
+        </td>
+    </tr>
+</table>

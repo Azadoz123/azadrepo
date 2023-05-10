@@ -1,0 +1,108 @@
+<!-- <div *ngIf="model.getProducts().length>0" class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+</div>
+<div *ngIf="model.getProducts().length ==0" class="bg-primary text-white m-2 p-2">
+    There are no products in the repository.
+</div> -->
+
+<!-- <div *ngIf="model.getProducts().length>0; then productList else noProducts" class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+</div>
+
+<ng-template #productList >
+    <div class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+    </div>
+</ng-template>
+
+<ng-template #noProducts>
+    <div class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+</div>
+</ng-template>
+
+<div [hidden] ="model.getProducts().length==0" class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+</div>
+<div [hidden] ="model.getProducts().length!=0" class="bg-primary text-white m-2 p-2">
+    There are {{model.getProducts().length}} products in the repository.
+</div> -->
+
+
+<!-- <div class="bg-info m-2 p-2"  [ngSwitch]="model.getProductCount()">
+    <span *ngSwitchCase="0">There are no products</span>
+    <span *ngSwitchCase="1">There are 1 product</span>
+    <span *ngSwitchCase="2">There are 2 products</span>
+    <span *ngSwitchDefault>There are many products</span>
+</div> -->
+
+<!-- <div class="bg-info m-2 p-2" [ngSwitch]="model.getProductById(1).name">
+  
+    <span *ngSwitchCase="productName"> Samsung S5</span>
+    <span *ngSwitchCase="'Samsung S6'"> Samsung S6</span>
+    <span *ngSwitchCase="'Samsung S7'"> Samsung S6</span>
+    <span *ngSwitchDefault> Samsung S7</span>
+</div> -->
+
+<!-- <div class="m-5">
+    <button class="btn btn-primary" (click)="addProduct()">
+        Add Product
+    </button>
+<ul class="list-group mt-2">
+    <li class="list-group-item" *ngFor="let product of model.getProducts(); index as i; first as isFirst; last as isLast; odd as isOdd; even as isEven;">
+        {{i+1}} - {{product.name}} -->
+        <!-- <span *ngIf="isFirst" > first item</span>
+        <span *ngIf="isLast"> last item</span>
+        <span *ngIf="isOdd"> odd item</span>
+        <span *ngIf="isEven"> even item</span> -->
+        <!-- <button class="btn btn-danger" (click)="deleteProduct(product)">Delete</button>
+        <button class="btn btn-warning" (click)="updateProduct(product)">Update</button>
+    </li>
+</ul>
+</div> -->
+<!-- <div>   
+    <h2> {{product.name}} </h2>
+    <h2 [textContent]="product.name"></h2> 
+    <img [src]="'assets/img/'+ product.imageUrl" alt="">
+     <img src="assets/img/{{product.imageUrl}}" alt="">
+</div> -->
+
+<!-- <div [class]="getClasses(1)">
+    katalogdaki ilk ürün {{model.getProductById(1).name}}
+</div>
+
+<div [class]="getClasses(2)">
+    katalogdaki ikinci ürün {{model.getProductById(2).name}}
+</div>
+
+<button class="btn btn-primary" [class.disabled]="disabled"> Submit</button>
+
+<div class="m-2 p-2" [ngClass]="getClassesMap(1)">
+    katalogdaki <span [style.color]="color" >ilk ürün </span>  {{model.getProductById(1).name}}
+</div>
+
+<div class="m-2 p-2" [ngClass]="getClassesMap(2)">
+    katalogdaki <span [ngStyle]="getStyles(2)">ikinci ürün </span>  {{model.getProductById(2).name}}
+</div> -->
+
+<!-- <button (click)="onSubmit()">Submit</button> -->
+
+<!-- <ng-template [ngTemplateOutlet]="productList" [ngOutletContext]="{products: model.getPopularProducts()}"></ng-template> -->
+<!-- <ng-template [ngTemplateOutlet]="productList" [ngOutletContext]="{products: model.getLatestProducts()}"></ng-template> -->
+<!-- <ng-template [ngTemplateOutlet]="productList" [ngTemplateOutletContext]="{products: model.getProducts() categories:}"></ng-template> -->
+<!-- <ng-template [ngTemplateOutlet]="productList" [ngTemplateOutletContext]="{products: model.getProducts()}"></ng-template>
+
+<!-- <ng-template  #productList let-products="products" le-categories="categories"> -->
+<!-- <ng-template  #productList let-products="products" >
+    <div class="m-5">
+    <ul class="list-group mt-2">
+        <li class="list-group-item" *ngFor="let product of products">
+             {{product.name}}
+        </li>
+    </ul>
+    </div>
+</ng-template> -->
+
+<!-- <input type="text" appInputEmail> -->
+
+<app-admin-products></app-admin-products>
