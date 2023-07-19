@@ -3679,11 +3679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3700,8 +3700,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj"
+            "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj"
             }
           }
         }

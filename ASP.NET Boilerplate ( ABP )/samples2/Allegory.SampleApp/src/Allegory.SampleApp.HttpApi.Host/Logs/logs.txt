@@ -1,0 +1,1271 @@
+2023-05-09 13:42:31.992 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:42:37.336 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:42:37.337 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:42:37.337 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:42:37.337 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:42:37.337 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:42:37.337 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:42:37.337 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:42:37.337 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:42:37.337 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:42:37.337 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:42:37.337 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:42:37.337 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:42:37.337 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:42:37.337 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:42:37.337 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:42:37.337 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:42:37.337 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:42:37.337 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:42:37.337 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:42:37.337 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:42:37.337 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:42:37.337 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:42:37.337 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:42:37.337 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:42:37.337 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:42:37.337 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:42:37.338 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:42:37.338 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:42:37.338 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:42:37.338 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:42:37.338 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 13:42:41.637 +03:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule, Volo.Abp.BackgroundJobs, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null: An exception was thrown while activating λ:Volo.Abp.BackgroundJobs.IBackgroundJobWorker -> Volo.Abp.BackgroundJobs.BackgroundJobWorker -> Volo.Abp.DistributedLocking.MedallionAbpDistributedLock -> λ:Medallion.Threading.IDistributedLockProvider.. See the inner exception for details.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Volo.Abp.BackgroundJobs.IBackgroundJobWorker -> Volo.Abp.BackgroundJobs.BackgroundJobWorker -> Volo.Abp.DistributedLocking.MedallionAbpDistributedLock -> λ:Medallion.Threading.IDistributedLockProvider.
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1163
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1032
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1015
+   at Allegory.SampleApp.SampleAppHttpApiHostModule.<>c__DisplayClass7_0.<ConfigureDistributedLocking>b__0(IServiceProvider sp) in C:\Users\Azad\Documents\GitHub\AllegorySoft\practice\lessons\abpframework\samples2\Allegory.SampleApp\src\Allegory.SampleApp.HttpApi.Host\SampleAppHttpApiHostModule.cs:line 145
+   at Autofac.Extensions.DependencyInjection.AutofacRegistration.<>c__DisplayClass3_0.<Register>b__0(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Volo.Abp.BackgroundWorkers.BackgroundWorkersApplicationInitializationContextExtensions.AddBackgroundWorkerAsync(ApplicationInitializationContext context, Type workerType, CancellationToken cancellationToken)
+   at Volo.Abp.BackgroundWorkers.BackgroundWorkersApplicationInitializationContextExtensions.AddBackgroundWorkerAsync[TWorker](ApplicationInitializationContext context, CancellationToken cancellationToken)
+   at Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule.OnApplicationInitializationAsync(ApplicationInitializationContext context)
+   at Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at Allegory.SampleApp.Program.Main(String[] args) in C:\Users\Azad\Documents\GitHub\AllegorySoft\practice\lessons\abpframework\samples2\Allegory.SampleApp\src\Allegory.SampleApp.HttpApi.Host\Program.cs:line 37
+2023-05-09 13:44:45.749 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:44:48.300 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:44:48.301 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:44:48.301 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:44:48.301 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:44:48.301 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:44:48.301 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:44:48.301 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:44:48.301 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:44:48.301 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:44:48.301 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:44:48.301 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:44:48.301 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:44:48.301 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 13:46:02.967 +03:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule, Volo.Abp.BackgroundJobs, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null: An exception was thrown while activating λ:Volo.Abp.BackgroundJobs.IBackgroundJobWorker -> Volo.Abp.BackgroundJobs.BackgroundJobWorker -> Volo.Abp.DistributedLocking.MedallionAbpDistributedLock -> λ:Medallion.Threading.IDistributedLockProvider.. See the inner exception for details.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Volo.Abp.BackgroundJobs.IBackgroundJobWorker -> Volo.Abp.BackgroundJobs.BackgroundJobWorker -> Volo.Abp.DistributedLocking.MedallionAbpDistributedLock -> λ:Medallion.Threading.IDistributedLockProvider.
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1163
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1032
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 1015
+   at Allegory.SampleApp.SampleAppHttpApiHostModule.<>c__DisplayClass7_0.<ConfigureDistributedLocking>b__0(IServiceProvider sp) in C:\Users\Azad\Documents\GitHub\AllegorySoft\practice\lessons\abpframework\samples2\Allegory.SampleApp\src\Allegory.SampleApp.HttpApi.Host\SampleAppHttpApiHostModule.cs:line 145
+   at Autofac.Extensions.DependencyInjection.AutofacRegistration.<>c__DisplayClass3_0.<Register>b__0(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Volo.Abp.BackgroundWorkers.BackgroundWorkersApplicationInitializationContextExtensions.AddBackgroundWorkerAsync(ApplicationInitializationContext context, Type workerType, CancellationToken cancellationToken)
+   at Volo.Abp.BackgroundWorkers.BackgroundWorkersApplicationInitializationContextExtensions.AddBackgroundWorkerAsync[TWorker](ApplicationInitializationContext context, CancellationToken cancellationToken)
+   at Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule.OnApplicationInitializationAsync(ApplicationInitializationContext context)
+   at Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplicationAsync(IApplicationBuilder app)
+   at Allegory.SampleApp.Program.Main(String[] args) in C:\Users\Azad\Documents\GitHub\AllegorySoft\practice\lessons\abpframework\samples2\Allegory.SampleApp\src\Allegory.SampleApp.HttpApi.Host\Program.cs:line 37
+2023-05-09 13:46:09.038 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:46:11.557 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:46:11.558 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:46:11.558 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:46:11.558 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:46:11.558 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:46:11.558 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:46:11.558 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:46:11.558 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:46:11.558 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:46:11.558 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:46:11.558 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:46:11.558 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:46:11.558 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 13:47:08.092 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:47:10.564 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:47:10.565 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:47:10.565 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:47:10.565 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:47:10.565 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:47:10.565 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:47:10.565 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:47:10.565 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:47:10.565 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:47:10.565 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:47:10.565 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:47:10.565 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:47:10.565 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 13:49:15.999 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:49:19.033 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:49:19.034 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:49:19.034 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:49:19.034 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:49:19.034 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:49:19.034 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:49:19.034 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:49:19.034 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:49:19.034 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:49:19.034 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:49:19.034 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:49:19.034 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:49:19.034 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 13:56:19.412 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 13:56:22.664 +03:00 [INF] Loaded ABP modules:
+2023-05-09 13:56:22.665 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 13:56:22.665 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 13:56:22.665 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 13:56:22.665 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 13:56:22.665 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 13:56:22.665 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 13:56:22.665 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 13:56:22.665 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 13:56:22.665 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 13:56:22.665 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 13:56:22.665 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 13:56:22.665 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 14:08:58.314 +03:00 [INF] Starting Allegory.SampleApp.HttpApi.Host.
+2023-05-09 14:09:02.315 +03:00 [INF] Loaded ABP modules:
+2023-05-09 14:09:02.316 +03:00 [INF] - Allegory.SampleApp.SampleAppHttpApiHostModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Allegory.SampleApp.SampleAppHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Allegory.SampleApp.SampleAppApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Allegory.SampleApp.SampleAppDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-05-09 14:09:02.316 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-05-09 14:09:02.316 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-05-09 14:09:02.316 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-05-09 14:09:02.316 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-05-09 14:09:02.316 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-05-09 14:09:02.316 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-05-09 14:09:02.316 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-05-09 14:09:02.316 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-05-09 14:09:02.316 +03:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-05-09 14:09:02.316 +03:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-05-09 14:09:02.316 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-05-09 14:09:02.316 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-05-09 14:09:02.316 +03:00 [INF]   - Allegory.SampleApp.SampleAppApplicationModule
+2023-05-09 14:09:02.316 +03:00 [INF]     - Allegory.SampleApp.SampleAppDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-05-09 14:09:02.317 +03:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-05-09 14:09:02.317 +03:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-05-09 14:09:02.317 +03:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-05-09 14:09:02.317 +03:00 [INF]   - Allegory.SampleApp.EntityFrameworkCore.SampleAppEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-05-09 14:09:02.317 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-05-09 14:09:02.317 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-05-09 14:09:02.570 +03:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2023-05-09 14:09:02.579 +03:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-05-09 14:09:03.889 +03:00 [INF] User profile is available. Using 'C:\Users\Azad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-09 14:09:04.026 +03:00 [INF] Initialized all ABP modules.
+2023-05-09 14:09:04.110 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-09 14:09:04.110 +03:00 [INF] Hosting environment: Development
+2023-05-09 14:09:04.110 +03:00 [INF] Content root path: C:\Users\Azad\Documents\GitHub\AllegorySoft\practice\lessons\abpframework\samples2\Allegory.SampleApp\src\Allegory.SampleApp.HttpApi.Host
+2023-05-09 14:09:04.131 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44341/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - -
+2023-05-09 14:09:04.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/ - -
+2023-05-09 14:09:06.493 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticPermissionsToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+2023-05-09 14:09:06.493 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.SaveAsync()
+   at Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticFeaturesToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+2023-05-09 14:09:07.292 +03:00 [INF] Executing endpoint 'Allegory.SampleApp.Controllers.HomeController.Index (Allegory.SampleApp.HttpApi.Host)'
+2023-05-09 14:09:07.292 +03:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:07.309 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Allegory.SampleApp.Controllers.HomeController (Allegory.SampleApp.HttpApi.Host).
+2023-05-09 14:09:07.314 +03:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2023-05-09 14:09:07.339 +03:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-05-09 14:09:07.343 +03:00 [INF] Executed action Allegory.SampleApp.Controllers.HomeController.Index (Allegory.SampleApp.HttpApi.Host) in 31.6523ms
+2023-05-09 14:09:07.343 +03:00 [INF] Executed endpoint 'Allegory.SampleApp.Controllers.HomeController.Index (Allegory.SampleApp.HttpApi.Host)'
+2023-05-09 14:09:07.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger - -
+2023-05-09 14:09:07.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/ - - - 302 - - 3234.5477ms
+2023-05-09 14:09:07.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger - - - 301 - - 5.7658ms
+2023-05-09 14:09:07.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/index.html - -
+2023-05-09 14:09:07.388 +03:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2023-05-09 14:09:07.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/ui/abp.swagger.js - -
+2023-05-09 14:09:07.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/ui/abp.js - -
+2023-05-09 14:09:07.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/swagger-ui.css - -
+2023-05-09 14:09:07.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/index.html - - - 200 - text/html;charset=utf-8 291.3887ms
+2023-05-09 14:09:07.681 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-09 14:09:07.681 +03:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2023-05-09 14:09:07.681 +03:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2023-05-09 14:09:07.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/ui/abp.swagger.js - - - 200 1363 application/javascript 36.4221ms
+2023-05-09 14:09:07.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/ui/abp.js - - - 200 3122 application/javascript 36.4221ms
+2023-05-09 14:09:07.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/swagger-ui-bundle.js - -
+2023-05-09 14:09:07.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/swagger-ui.css - - - 200 143943 text/css 41.0472ms
+2023-05-09 14:09:07.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/swagger-ui-standalone-preset.js - -
+2023-05-09 14:09:07.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2023-05-09 14:09:07.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 12032 application/javascript;+charset=utf-8 3.0147ms
+2023-05-09 14:09:07.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_vs/browserLink - -
+2023-05-09 14:09:07.730 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-05-09 14:09:07.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 54.1713ms
+2023-05-09 14:09:07.764 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-05-09 14:09:07.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/swagger-ui-bundle.js - - - 200 1095087 text/javascript 128.3786ms
+2023-05-09 14:09:07.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 106.9406ms
+2023-05-09 14:09:07.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/v1/swagger.json - -
+2023-05-09 14:09:08.012 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44341/swagger/favicon-32x32.png - -
+2023-05-09 14:09:08.013 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-09 14:09:08.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/favicon-32x32.png - - - 200 628 image/png 1.4968ms
+2023-05-09 14:09:08.028 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:09:08.102 +03:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2023-05-09 14:09:08.122 +03:00 [DBG] Added 0 entity changes to the current audit log
+2023-05-09 14:09:08.130 +03:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2023-05-09 14:09:08.161 +03:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 847.0325ms
+2023-05-09 14:09:08.162 +03:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:08.163 +03:00 [DBG] Added 0 entity changes to the current audit log
+2023-05-09 14:09:08.170 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44341/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - - - 200 - application/json;+charset=utf-8 4040.1046ms
+2023-05-09 14:09:08.219 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44341/api/abp/application-localization?CultureName=tr&OnlyDynamics=True&api-version=1.0 - -
+2023-05-09 14:09:08.225 +03:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:08.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44341/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.0212ms
+2023-05-09 14:09:08.228 +03:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2023-05-09 14:09:08.312 +03:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2023-05-09 14:09:08.314 +03:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 85.6162ms
+2023-05-09 14:09:08.314 +03:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:08.314 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44341/api/abp/application-localization?CultureName=tr&OnlyDynamics=True&api-version=1.0 - - - 200 - application/json;+charset=utf-8 94.8343ms
+2023-05-09 14:09:15.187 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44341/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - -
+2023-05-09 14:09:15.189 +03:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:15.189 +03:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2023-05-09 14:09:15.194 +03:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2023-05-09 14:09:15.218 +03:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2023-05-09 14:09:15.219 +03:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2023-05-09 14:09:15.220 +03:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 30.1246ms
+2023-05-09 14:09:15.220 +03:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:15.220 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44341/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - - - 200 - application/json;+charset=utf-8 32.7974ms
+2023-05-09 14:09:15.222 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44341/api/abp/application-localization?CultureName=tr&OnlyDynamics=True&api-version=1.0 - -
+2023-05-09 14:09:15.223 +03:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:15.223 +03:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2023-05-09 14:09:15.225 +03:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2023-05-09 14:09:15.226 +03:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 2.831ms
+2023-05-09 14:09:15.226 +03:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-05-09 14:09:15.226 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44341/api/abp/application-localization?CultureName=tr&OnlyDynamics=True&api-version=1.0 - - - 200 - application/json;+charset=utf-8 4.1149ms
+2023-05-09 14:10:18.073 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:11:28.115 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:12:38.152 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:13:48.185 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:14:58.227 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:16:08.259 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:17:18.304 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:18:28.345 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:19:38.382 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:20:48.418 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:21:58.454 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2023-05-09 14:23:08.491 +03:00 [ERR] One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+System.AggregateException: One or more errors occurred. (ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]'))
+ ---> System.ArgumentException: ps (Parameter 'Expected [lock] to be a field or gettable property on [<>f__AnonymousType0`2[[StackExchange.Redis.RedisKey, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46],[StackExchange.Redis.RedisValue, StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46]]]')
+   at StackExchange.Redis.LuaScript.ExtractParameters(Object ps, Nullable`1 keyPrefix, RedisKey[]& keys, RedisValue[]& args) in /_/src/StackExchange.Redis/LuaScript.cs:line 117
+   at StackExchange.Redis.LuaScript.EvaluateAsync(IDatabaseAsync db, Object ps, Nullable`1 withKeyPrefix, CommandFlags flags) in /_/src/StackExchange.Redis/LuaScript.cs:line 161
+   at StackExchange.Redis.RedisDatabase.ScriptEvaluateAsync(LuaScript script, Object parameters, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1245
+   at Medallion.Threading.Redis.Primitives.RedisScript`1.ExecuteAsync(IDatabaseAsync database, TArgument argument, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisScript.cs:line 29
+   at Medallion.Threading.Redis.Primitives.RedisMutexPrimitive.ReleaseAsync(IDatabaseAsync database, Boolean fireAndForget) in /_/DistributedLock.Redis/Primitives/RedisMutexPrimitive.cs:line 36
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 69
+   --- End of inner exception stack trace ---
+   at Medallion.Threading.Redis.RedLock.RedLockRelease.ReleaseAsync() in /_/DistributedLock.Redis/RedLock/RedLockRelease.cs:line 78
+   at Medallion.Threading.Redis.RedLock.RedLockHandle.DisposeAsync() in /_/DistributedLock.Redis/RedLock/RedLockHandle.cs:line 52
+   at Volo.Abp.BackgroundJobs.BackgroundJobWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)

@@ -9,15 +9,16 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class LoginGuard implements CanActivate {
 
-  constructor(private authService: AuthService,
+  constructor(
+    private authService: AuthService,
     private toastrService: ToastrService,
     private router: Router) { }
 
-    
+
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-   
+
       if(this.authService.isAuthenticated()){
         return true;
         console.log("a")
@@ -28,5 +29,5 @@ export class LoginGuard implements CanActivate {
         console.log("a")
       }
   }
-  
+
 }

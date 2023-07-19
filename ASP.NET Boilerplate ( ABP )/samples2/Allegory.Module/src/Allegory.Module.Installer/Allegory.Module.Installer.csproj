@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+        <RootNamespace>Allegory.Module</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.VirtualFileSystem" Version="7.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="..\..\Allegory.Module.abpmdl.json" />
+      <Content Include="..\..\Allegory.Module.abpmdl.json">
+        <Pack>true</Pack>
+        <PackagePath>content\</PackagePath>
+      </Content>
+    </ItemGroup>
+
+</Project>

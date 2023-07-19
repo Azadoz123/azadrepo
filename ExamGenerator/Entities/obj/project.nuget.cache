@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YKsv6UsINj44IV8jPei7gCsczcYKcdYKW6GQo/6m4Eg+F+KkWQqxlbjJ9eKWpt4pfj5oO67WPRZ8t/NGh/BezA==",
+  "dgSpecHash": "pvqHE5xcudZpik80MNoIFOJKByoIFvoi5W0K4EqrqY8U+alCAIOXMKn+Rx6woM8EdZ9lX8TgnztK+LQGRRYBIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.4\\microsoft.aspnetcore.cryptography.keyderivation.7.0.4.nupkg.sha512",

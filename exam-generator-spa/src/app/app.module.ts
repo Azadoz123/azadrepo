@@ -8,7 +8,10 @@ import { ExamComponent } from './components/exam/exam/exam.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { VatAddedPipe } from './pipes/vat-added.pipe';
 import { FilterPipePipe } from './pipes/filter-pipe.pipe';
-
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { FormsModule } from '@angular/forms';
+import { CardModule } from 'primeng/card';
 
 
 @NgModule({
@@ -21,8 +24,12 @@ import { FilterPipePipe } from './pipes/filter-pipe.pipe';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ButtonModule,
+    InputTextModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

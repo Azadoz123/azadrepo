@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Allegory.SampleMongoApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Allegory.SampleMongoApp.Application.Contracts\Allegory.SampleMongoApp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.MongoDB" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="7.2.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Allegory.SampleApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Allegory.SampleApp.Application.Contracts\Allegory.SampleApp.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\ProductManagement\src\ProductManagement.HttpApi.Client\ProductManagement.HttpApi.Client.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Blogging.Admin.HttpApi.Client" Version="7.2.1" />
+    <PackageReference Include="Volo.Blogging.HttpApi.Client" Version="7.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="**\*generate-proxy.json" />
+    <Content Remove="**\*generate-proxy.json" />
+  </ItemGroup>
+
+</Project>

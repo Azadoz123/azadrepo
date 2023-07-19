@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqBLtiW4jakMgfP5qYQ+ceMhvIy145KOtDss2JSAuKtt5u3o/rhL6Q32i+BOnXqgLH9YDO7xdBjux2ijyUb7eg==",
+  "dgSpecHash": "yTYKvBFQdmvEE2QHmZjWRmddbvbLComN3Cb294wIcFpDhmIZIpDW2V6Y1Mh4q4/lGaohfR8y+c6A2fIKQgrCuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

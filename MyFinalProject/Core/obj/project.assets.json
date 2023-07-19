@@ -7865,11 +7865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\Business.csproj": {}
+    "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\Business.csproj": {
+    "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj": {
+    "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -196,8 +196,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj"
+              "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj"
               }
             }
           }
@@ -247,14 +247,14 @@
         }
       }
     },
-    "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj": {
+    "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -271,8 +271,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj"
+              "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj"
               }
             }
           }

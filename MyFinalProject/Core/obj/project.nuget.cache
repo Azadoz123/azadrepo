@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rel3Zt4VyVA/LZfP/x93zPDE38E721Em8OC8cg4G8SbVpAKWUClzcBJm7ofIaDKO8mdL3iHgR7fAkOTuijEOtQ==",
+  "dgSpecHash": "cr8iVmWTSB1VOLgnBwjxX6pl94tDORcdDZ9pOf+CUyHmCkLzr1DLt3OID5jGGL8RjNKbDpi+ZpYDZrcHlSts2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

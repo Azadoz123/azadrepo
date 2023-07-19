@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Test\\obj\\",
+      "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",

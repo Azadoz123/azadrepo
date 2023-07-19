@@ -7998,11 +7998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Azad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8019,8 +8019,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\MyFinalProject\\DataAccess\\DataAccess.csproj"
             }
           }
         }

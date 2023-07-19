@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qs1VmuDOd6Y2QrTiCE3r7Y9K0diJLXFyei7hjq24mof46QzdqWB2pHWfyhjWWHqchsrEwDdkICvmuUlng1BUzg==",
+  "dgSpecHash": "hHd6iCUSS6kAyohlpYk7YeCUUJCrcLVVqxPGIiAoCSrg168bHkk/wTQirlDhdTRC+439wr8GSN2ial6EHGzrxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

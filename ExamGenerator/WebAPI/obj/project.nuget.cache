@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UvEK1uDP6mD6zTT2eEJWq3c18PoI/ugugTyqGoHoZiRj5uiC3RBttL/ZnOsFaNaCCkR4LdAWgqnkTlsXyZCUPQ==",
+  "dgSpecHash": "d/mcCk3dIbyBbM7z8h/vGBif5Y/j4N3np0VSNKVKz1AAX6gz8S5wb4ZNVvOyjzhoxr72kTRIL6z0JwJMMAAcKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

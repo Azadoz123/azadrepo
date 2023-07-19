@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OoWD/cT3BpBJoyKvRxw0T4rJU0FztynV1U+lbhWbAhCSi8Y4UZ6GhIMSKLVarGKM8o2a2uYjpLvedLs2FPU/wg==",
+  "dgSpecHash": "BgtbYjujGRQE3njynCLnc+GZR5uQEZkARcZa15yoNnOimIbav6wAnXawpLY3Nomq5KO3CH7aGLvkqExL5ZraZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

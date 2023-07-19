@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nljGXOmlWw4JaJBaYC8e9ZpKPNM9jv81ZaBlY6OyShrU2Q/siyXQmnSMpZTwYpvxH/0NAA9ShXaMBC3eJYA2nw==",
+  "dgSpecHash": "w3u5iJ4QJH7uUV+nH8pvSZI7I+hQjkaayfui2RRhsXGUysHhUeAZKHmkE6QAo56GYdJgILV8/MaBqJWKf92RvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azad\\Desktop\\İThinka\\azadozkaynakproje\\ExamGenerator\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\Azad\\Documents\\GitHub\\azadrepo\\ExamGenerator\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azad\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Azad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
